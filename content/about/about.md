@@ -1,7 +1,7 @@
 +++
 title = 'About'
-date = 2024-07-23T20:21:22+02:00
-draft = true
+date = 2024-07-23T23:36:52+02:00
+draft = false
 author= "Adolfo Colavito"
 +++ 
-Hey, 
+su di me....
