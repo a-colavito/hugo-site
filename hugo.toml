@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://a-colavito.github.io/hugo-site/'
 languageCode = 'en-us'
 title = 'Home'
 pluralizeListTitles = false
