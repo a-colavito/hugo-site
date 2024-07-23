@@ -28,5 +28,4 @@ ne restano solo **6**!
 - ~~METODI DI OTTIMIZZAZIONE~~
 - **RETI DI TELECOMUNICAZIONI**
 
-
-mannaggia al porco dd'
+ciao sono un test
