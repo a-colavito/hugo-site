@@ -28,4 +28,3 @@ ne restano solo **6**!
 - ~~METODI DI OTTIMIZZAZIONE~~
 - **RETI DI TELECOMUNICAZIONI**
 
-ciao sono un test
