@@ -1,1 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tags on Home</title><link>https://a-colavito.github.io/hugo-site/tags/</link><description>Recent content in Tags on Home</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 13 Jan 2019 20:28:42 -0600</lastBuildDate><atom:link href="https://a-colavito.github.io/hugo-site/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Poetry</title><link>https://a-colavito.github.io/hugo-site/tags/poetry/</link><pubDate>Sun, 13 Jan 2019 20:28:42 -0600</pubDate><guid>https://a-colavito.github.io/hugo-site/tags/poetry/</guid><description/></item><item><title>Trees</title><link>https://a-colavito.github.io/hugo-site/tags/trees/</link><pubDate>Sun, 13 Jan 2019 20:28:42 -0600</pubDate><guid>https://a-colavito.github.io/hugo-site/tags/trees/</guid><description/></item><item><title>Time</title><link>https://a-colavito.github.io/hugo-site/tags/time/</link><pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate><guid>https://a-colavito.github.io/hugo-site/tags/time/</guid><description/></item><item><title>Life</title><link>https://a-colavito.github.io/hugo-site/tags/life/</link><pubDate>Sat, 12 Jan 2019 22:14:57 -0600</pubDate><guid>https://a-colavito.github.io/hugo-site/tags/life/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Home</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Home</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 13 Jan 2019 20:28:42 -0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Poetry</title>
+      <link>http://localhost:1313/tags/poetry/</link>
+      <pubDate>Sun, 13 Jan 2019 20:28:42 -0600</pubDate>
+      <guid>http://localhost:1313/tags/poetry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trees</title>
+      <link>http://localhost:1313/tags/trees/</link>
+      <pubDate>Sun, 13 Jan 2019 20:28:42 -0600</pubDate>
+      <guid>http://localhost:1313/tags/trees/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Time</title>
+      <link>http://localhost:1313/tags/time/</link>
+      <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
+      <guid>http://localhost:1313/tags/time/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>http://localhost:1313/tags/life/</link>
+      <pubDate>Sat, 12 Jan 2019 22:14:57 -0600</pubDate>
+      <guid>http://localhost:1313/tags/life/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

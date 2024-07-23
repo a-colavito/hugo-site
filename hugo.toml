@@ -1,4 +1,4 @@
-baseURL = 'https://a-colavito.github.io/hugo-site/'
+baseURL = 'https://acolavito.netlify.app/'
 languageCode = 'en-us'
 title = 'Home'
 pluralizeListTitles = false
