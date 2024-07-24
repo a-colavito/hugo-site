@@ -6,21 +6,14 @@
     <description>Recent content on Home</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 08:36:28 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jul 2024 23:36:52 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Progetti</title>
-      <link>http://localhost:1313/progetti/</link>
-      <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
-      <guid>http://localhost:1313/progetti/</guid>
-      <description></description>
-    </item>
     <item>
       <title>About</title>
       <link>http://localhost:1313/about/about/</link>
       <pubDate>Tue, 23 Jul 2024 23:36:52 +0200</pubDate>
       <guid>http://localhost:1313/about/about/</guid>
-      <description>su di me&amp;hellip;. Scarica CV 9 </description>
+      <description>su di me&amp;hellip;. Scarica CV </description>
     </item>
     <item>
       <title>Love</title>

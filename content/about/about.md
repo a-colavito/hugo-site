@@ -5,4 +5,4 @@ draft = false
 author= "Adolfo Colavito"
 +++ 
 su di me....
-{{< embed-pdf url="/PDF/CV_eng_.pdf" >}}
+{{< embed-pdf url="static/PDF/CV_eng_.pdf" >}}
