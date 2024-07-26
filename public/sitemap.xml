@@ -2,51 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/film/</loc>
+    <loc>http://localhost:1313/hugo-site/film/</loc>
     <lastmod>2024-07-23T20:22:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/hugo-site/</loc>
     <lastmod>2024-07-23T20:22:35+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/film/love/</loc>
-    <lastmod>2024-07-23T20:22:35+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/about/</loc>
-    <lastmod>2024-07-23T20:21:22+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/contatti/</loc>
+    <loc>http://localhost:1313/hugo-site/esami/</loc>
     <lastmod>2024-07-23T14:51:19+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/esami/</loc>
-    <lastmod>2024-07-23T14:51:19+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/libri/</loc>
+    <loc>http://localhost:1313/hugo-site/libri/</loc>
     <lastmod>2019-01-13T20:28:42-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/poetry/</loc>
+    <loc>http://localhost:1313/hugo-site/tags/poetry/</loc>
     <lastmod>2019-01-13T20:28:42-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/hugo-site/tags/</loc>
     <lastmod>2019-01-13T20:28:42-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/trees/</loc>
+    <loc>http://localhost:1313/hugo-site/tags/trees/</loc>
     <lastmod>2019-01-13T20:28:42-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/libri/trees-by-joyce-kilmer/</loc>
+    <loc>http://localhost:1313/hugo-site/libri/trees-by-joyce-kilmer/</loc>
     <lastmod>2019-01-13T20:28:42-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/libri/that-it-will-never-come-again-by-emily-dickinson/</loc>
+    <loc>http://localhost:1313/hugo-site/libri/that-it-will-never-come-again-by-emily-dickinson/</loc>
     <lastmod>2019-01-12T23:24:54-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/time/</loc>
+    <loc>http://localhost:1313/hugo-site/tags/time/</loc>
     <lastmod>2019-01-12T23:24:54-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/libri/if-by-rudyard-kipling/</loc>
+    <loc>http://localhost:1313/hugo-site/libri/if-by-rudyard-kipling/</loc>
     <lastmod>2019-01-12T22:14:57-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/life/</loc>
+    <loc>http://localhost:1313/hugo-site/tags/life/</loc>
     <lastmod>2019-01-12T22:14:57-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/hugo-site/categories/</loc>
   </url>
 </urlset>

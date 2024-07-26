@@ -2,59 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/hugo-site/</link>
     <description>Recent content on Home</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Jul 2024 20:22:35 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Love</title>
-      <link>http://localhost:1313/film/love/</link>
-      <pubDate>Tue, 23 Jul 2024 20:22:35 +0200</pubDate>
-      <guid>http://localhost:1313/film/love/</guid>
-      <description>Gaspar Noé &amp;hellip;.</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Tue, 23 Jul 2024 20:21:22 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Hey,</description>
-    </item>
-    <item>
-      <title>Contatti</title>
-      <link>http://localhost:1313/contatti/</link>
-      <pubDate>Tue, 23 Jul 2024 14:51:19 +0200</pubDate>
-      <guid>http://localhost:1313/contatti/</guid>
-      <description>email: adolfocolavito@hotmail.it</description>
-    </item>
+    <lastBuildDate>Tue, 23 Jul 2024 14:51:19 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-site/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Esami Mancanti</title>
-      <link>http://localhost:1313/esami/</link>
+      <link>http://localhost:1313/hugo-site/esami/</link>
       <pubDate>Tue, 23 Jul 2024 14:51:19 +0200</pubDate>
-      <guid>http://localhost:1313/esami/</guid>
+      <guid>http://localhost:1313/hugo-site/esami/</guid>
       <description>ne restano solo 6!&#xA;ALGORITMI E STRUTTURE DATI IN JAVA ANALISI MATEMATICA CHIMICA ECONOMIA ED ORGANIZZAZIONE AZIENDALE FISICA GENERALE GEOMETRIA E ALGEBRA INFORMATICA PER L&amp;rsquo;INGEGNERIA INGLESE BASI DI DATI E SISTEMI INFORMATIVI CALCOLO NUMERICO ELETTROTECNICA FISICA DELL&amp;rsquo;ELETTROMAGNETISMO E DELL&amp;rsquo;OTTICA FONDAMENTI DI AUTOMATICA FONDAMENTI DI ELETTRONICA SISTEMI OPERATIVI CALCOLATORI ELETTRONICI CONTROLLO DIGITALE FONDAMENTI DELLA MISURAZIONE FONDAMENTI DELLE TELECOMUNICAZIONI INGEGNERIA DEL SW E FONDAMENTI WEB MATERIALI PER L&amp;rsquo;INGEGNERIA ELETTRICA METODI DI OTTIMIZZAZIONE RETI DI TELECOMUNICAZIONI </description>
     </item>
     <item>
       <title>Trees by Joyce Kilmer</title>
-      <link>http://localhost:1313/libri/trees-by-joyce-kilmer/</link>
+      <link>http://localhost:1313/hugo-site/libri/trees-by-joyce-kilmer/</link>
       <pubDate>Sun, 13 Jan 2019 20:28:42 -0600</pubDate>
-      <guid>http://localhost:1313/libri/trees-by-joyce-kilmer/</guid>
+      <guid>http://localhost:1313/hugo-site/libri/trees-by-joyce-kilmer/</guid>
       <description>I think that I shall never see A poem lovely as a tree.&#xA;A tree whose hungry mouth is prest Against the earth&amp;rsquo;s sweet flowing breast;&#xA;A tree that looks at God all day, And lifts her leafy arms to pray;&#xA;A tree that may in Summer wear A nest of robins in her hair;&#xA;Upon whose bosom snow has lain; Who intimately lives with rain.&#xA;Poems are made by fools like me, But only God can make a tree.</description>
     </item>
     <item>
       <title>That it will never come again by Emily Dickinson</title>
-      <link>http://localhost:1313/libri/that-it-will-never-come-again-by-emily-dickinson/</link>
+      <link>http://localhost:1313/hugo-site/libri/that-it-will-never-come-again-by-emily-dickinson/</link>
       <pubDate>Sat, 12 Jan 2019 23:24:54 -0600</pubDate>
-      <guid>http://localhost:1313/libri/that-it-will-never-come-again-by-emily-dickinson/</guid>
+      <guid>http://localhost:1313/hugo-site/libri/that-it-will-never-come-again-by-emily-dickinson/</guid>
       <description>That it will never come again Is what makes life so sweet. Believing what we don&amp;rsquo;t believe Does not exhilarate.&#xA;That if it be, it be at best An ablative estate &amp;ndash; This instigates an appetite Precisely opposite.</description>
     </item>
     <item>
       <title>If by Rudyard Kipling</title>
-      <link>http://localhost:1313/libri/if-by-rudyard-kipling/</link>
+      <link>http://localhost:1313/hugo-site/libri/if-by-rudyard-kipling/</link>
       <pubDate>Sat, 12 Jan 2019 22:14:57 -0600</pubDate>
-      <guid>http://localhost:1313/libri/if-by-rudyard-kipling/</guid>
+      <guid>http://localhost:1313/hugo-site/libri/if-by-rudyard-kipling/</guid>
       <description>If you can keep your head when all about you Are losing theirs and blaming it on you, If you can trust yourself when all men doubt you, But make allowance for their doubting too; If you can wait and not be tired by waiting, Or being lied about, don&amp;rsquo;t deal in lies, Or being hated, don&amp;rsquo;t give way to hating, And yet don&amp;rsquo;t look too good, nor talk too wise:</description>
     </item>
   </channel>
