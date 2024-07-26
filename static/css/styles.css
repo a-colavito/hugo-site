@@ -14,3 +14,9 @@ main {
 .footer, .banner {
   flex-shrink: 0;
 }
+.navbar-toggler-close-icon {
+  font-size: 1.25rem; /* Adjust the size as needed */
+  line-height: 1.5;
+  font-weight: bold;
+}
+

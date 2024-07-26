@@ -15,28 +15,29 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/"><button type="button" class="btn btn-outline-dark"><i class="fas fa-home"></i></button></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <a class="navbar-brand" href="/">
+    <button type="button" class="btn btn-outline-dark"><i class="fas fa-home"></i></button>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
     <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-close-icon" style="display:none;">&#10005;</span> 
   </button>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ml-auto">
-     
       <li class="nav-item">
-        <a class="nav-link" href="/about"><i class="fas fa-user"></i>  About</a>
-      </li>
-      <li class = "nav-item">
-        <a class = "nav-link" href="/progetti/"><i class ="fas fa-laptop-code"></i> Progetti</a>
-      </li>
+        <a class="nav-link" href="/about"><i class="fas fa-user"></i> About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/contatti/"><i class="fas fa-envelope"></i>  Contatti</a>
+        <a class="nav-link" href="/progetti/"><i class="fas fa-laptop-code"></i> Progetti</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/film/"><i class="fas fa-film"> </i>  Film</a>
-        <li class="nav-item">
-          <a class="nav-link" href="/libri/"><i class="fas fa-book"></i>  Libri</a>
-        </li>
+        <a class="nav-link" href="/contatti/"><i class="fas fa-envelope"></i> Contatti</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/film/"><i class="fas fa-film"></i> Film</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/libri/"><i class="fas fa-book"></i> Libri</a>
       </li>
     </ul>
   </div>
@@ -46,7 +47,7 @@
     
 <div class="container text-center">
   <h1 class="display-4 mt-5">Benvenuti nel mio Sito!</h1>
-  <p class= "lead">Sono Adolfo Colavito, un <a href="/esami/"><mark><em >wannabe*</em></mark> </a>Ingegnere Informatico </p>
+  <p class= "lead">Sono Adolfo Colavito, Ingegnere Informatico <a href="/esami/"><mark><em >wannabe*</em></mark> </a> </p>
 </div>
 
   </main>
@@ -71,6 +72,7 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
