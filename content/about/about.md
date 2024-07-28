@@ -1,8 +1,10 @@
-+++
-title = 'About'
-date = 2024-07-23T23:36:52+02:00
-draft = false
-author= "Adolfo Colavito"
-+++ 
-su di me....
-{{< embed-pdf url="static/PDF/CV_eng_.pdf" >}}
+---
+title: "Info e contatti"
+layout: "about"
+---
+Ciao! Sono Adolfo, classe 97', diplomato al classico e attualmente studente presso la facoltà di Ingegneria Ingormatica del Politecnico di Bari. Da sempre appassionato di scienza
+
+
+
+
+{{< embed-pdf url="/PDF/CV_eng_.pdf" >}}

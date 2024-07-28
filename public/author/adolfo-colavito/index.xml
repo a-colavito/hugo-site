@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Adolfo Colavito on Home</title>
+    <link>http://localhost:1313/author/adolfo-colavito/</link>
+    <description>Recent content in Adolfo Colavito on Home</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Jul 2024 08:36:28 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/author/adolfo-colavito/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A proposito di questo sito...</title>
+      <link>http://localhost:1313/progetti/aboutsite/</link>
+      <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
+      <guid>http://localhost:1313/progetti/aboutsite/</guid>
+      <description>HUGO, HUGO, HUGO! </description>
+    </item>
+    <item>
+      <title>Sito con REACT &#43; REST</title>
+      <link>http://localhost:1313/progetti/react/</link>
+      <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
+      <guid>http://localhost:1313/progetti/react/</guid>
+      <description>Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&#xA;Ma, perché REACT?</description>
+    </item>
+    <item>
+      <title>Love</title>
+      <link>http://localhost:1313/film/love/</link>
+      <pubDate>Tue, 23 Jul 2024 20:22:35 +0200</pubDate>
+      <guid>http://localhost:1313/film/love/</guid>
+      <description>Gaspar Noé &amp;hellip;.</description>
+    </item>
+    <item>
+      <title>Contatti</title>
+      <link>http://localhost:1313/contatti/contatti/</link>
+      <pubDate>Tue, 23 Jul 2024 14:51:19 +0200</pubDate>
+      <guid>http://localhost:1313/contatti/contatti/</guid>
+      <description>email: adolfocolavito@hotmail.it</description>
+    </item>
+  </channel>
+</rss>

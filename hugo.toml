@@ -2,3 +2,5 @@ baseURL = 'https://acolavito.netlify.app/'
 languageCode = 'en-us'
 title = 'Home'
 pluralizeListTitles = false
+[taxonomies]
+author = 'author'
