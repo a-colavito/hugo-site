@@ -4,3 +4,9 @@ title = 'Home'
 pluralizeListTitles = false
 [taxonomies]
 author = 'author'
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[params]
+  static = "static"

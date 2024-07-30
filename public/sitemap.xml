@@ -49,6 +49,8 @@
   </url><url>
     <loc>http://localhost:1313/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/home/</loc>
+  </url><url>
     <loc>http://localhost:1313/about/about/</loc>
   </url>
 </urlset>

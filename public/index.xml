@@ -65,6 +65,13 @@
       <description>If you can keep your head when all about you Are losing theirs and blaming it on you, If you can trust yourself when all men doubt you, But make allowance for their doubting too; If you can wait and not be tired by waiting, Or being lied about, don&amp;rsquo;t deal in lies, Or being hated, don&amp;rsquo;t give way to hating, And yet don&amp;rsquo;t look too good, nor talk too wise:</description>
     </item>
     <item>
+      <title>Benvenuti nel mio Sito!</title>
+      <link>http://localhost:1313/home/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/home/</guid>
+      <description>Ciao sono Adolfo, ingegnere informatico wannabe. In questo sito troverai i miei progetti, i libri che leggo e i film visti di recente.&#xA;Non solo quindi un sito portfolio ma uno spazio ibrido dove potrai capire cosa mi piace fare nei vari contesti che occupano la mia vita: lavorativo, culturale, sportivo.&#xA;Il sito è semplice ed essenziale, senza inutili complicazioni, modulare e facilmente aggiornabile, il tutto grazie a un mix efficiente di Hugo &amp;amp; Bootstrap.</description>
+    </item>
+    <item>
       <title>Info e contatti</title>
       <link>http://localhost:1313/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

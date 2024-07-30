@@ -4,11 +4,12 @@
   <article class="blog-post">
     <header class="mb-4">
       <h1 class="display-4">{{ .Title }}</h1>
-      {{ $mese := index $mesi (.Date.Format "January") }}
-      <p class="text-muted">Scritto il: {{ .Date.Format "2" }} {{ $mese }} {{ .Date.Format "2006" }} <br>
-        Autore:  {{.Params.author}}
-      </p>
-      
+      {{ if not .IsHome }}
+       <p class="text-muted">
+          {{ $mese := index $mesi (.Date.Format "January") }}
+          Scritto il: {{ .Date.Format "2" }} {{ $mese }} {{ .Date.Format "2006" }}<br>
+        </p>
+      {{ end }}
     </header>
     <section class="post-content">
       {{ .Content }}
