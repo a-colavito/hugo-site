@@ -8,4 +8,4 @@ In questo sito troverai i miei progetti, i libri che leggo e i film visti di rec
 Non solo quindi un sito portfolio ma uno spazio ibrido dove potrai capire cosa mi piace fare nei vari contesti che occupano la mia vita: lavorativo, culturale, sportivo.  
 Il sito è semplice ed essenziale, senza inutili complicazioni, modulare e facilmente aggiornabile, il tutto grazie a un mix efficiente di <a href="/progetti/aboutsite" class="link-dark"><b>Hugo & Bootstrap</b></a>.
 Per qualsiasi curiosità, proposta di progetto o scambio di idee, non esistare a contattarmi! (giuro leggo anche la cartella di spam)
-<img src="../static/images/marks-working-place.png">
+

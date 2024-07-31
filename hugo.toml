@@ -8,5 +8,9 @@ author = 'author'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+    [markup.goldmark.extensions]
+      attr = true
+
+
 [params]
   static = "static"

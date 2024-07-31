@@ -23,11 +23,11 @@
       <description>Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&#xA;Ma, perché REACT?</description>
     </item>
     <item>
-      <title>Love</title>
-      <link>http://localhost:1313/film/love/</link>
+      <title>Anatomia di una caduta</title>
+      <link>http://localhost:1313/film/anatomiadiunacaduta/</link>
       <pubDate>Tue, 23 Jul 2024 20:22:35 +0200</pubDate>
-      <guid>http://localhost:1313/film/love/</guid>
-      <description>Gaspar Noé &amp;hellip;.</description>
+      <guid>http://localhost:1313/film/anatomiadiunacaduta/</guid>
+      <description>{.img-fluid .w-50}</description>
     </item>
     <item>
       <title>Contatti</title>

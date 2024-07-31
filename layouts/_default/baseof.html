@@ -1,24 +1,11 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AC | {{ block "title" . }}{{ .Title }}{{ end }}</title>
-
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <link href="{{ "css/styles.css" | relURL }}" rel="stylesheet">
-
-</head>
+{{ partial "head.html" . }}
 <body>
   {{ partial "nav.html" . }}
   <main role="main">
     {{ block "main" . }}{{ end }}
   </main>
-  
   {{ partial "footer.html" . }}
 
   <!-- Bootstrap JS and dependencies -->
@@ -27,5 +14,4 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="/js/main.js"></script>
 </body>
-
 </html>
