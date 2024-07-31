@@ -6,8 +6,15 @@
     <description>Recent content in Adolfo Colavito on Home</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2024 08:36:28 +0200</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/author/adolfo-colavito/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Anatomia di una caduta</title>
+      <link>http://localhost:1313/film/anatomiadiunacaduta/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/film/anatomiadiunacaduta/</guid>
+      <description>&#xD;Anatomia di una caduta è il film pluripremiato della regista francese Justine Triet, ha vinto numerosissimi premi tra il 2023 e il 2024 (per citarne alcuni: Palma d&#39;Oro a Cannes, Oscar alla miglior sceneggiatura originale e Miglior fil straniero ai Golden Globe) e il motivo è presto detto: anatomia di una caduta è un film brillante, realistico e per questo a tratti molto amaro. Il film fa quello che il titolo promette ovverosia una vera e propria anatomia o per meglio dire dissezione di una caduta e di una famiglia, ma andiamo con ordine Trama&#xD;Dissezionare i rapporti </description>
+    </item>
     <item>
       <title>A proposito di questo sito...</title>
       <link>http://localhost:1313/progetti/aboutsite/</link>
@@ -21,13 +28,6 @@
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
       <guid>http://localhost:1313/progetti/react/</guid>
       <description>Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&#xA;Ma, perché REACT?</description>
-    </item>
-    <item>
-      <title>Anatomia di una caduta</title>
-      <link>http://localhost:1313/film/anatomiadiunacaduta/</link>
-      <pubDate>Tue, 23 Jul 2024 20:22:35 +0200</pubDate>
-      <guid>http://localhost:1313/film/anatomiadiunacaduta/</guid>
-      <description>{.img-fluid .w-50}</description>
     </item>
     <item>
       <title>Contatti</title>

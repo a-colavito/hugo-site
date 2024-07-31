@@ -2,16 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/progetti/aboutsite/</loc>
-    <lastmod>2024-07-24T08:36:28+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/author/adolfo-colavito/</loc>
-    <lastmod>2024-07-24T08:36:28+02:00</lastmod>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/film/anatomiadiunacaduta/</loc>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/author/</loc>
-    <lastmod>2024-07-24T08:36:28+02:00</lastmod>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/film/</loc>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/progetti/aboutsite/</loc>
     <lastmod>2024-07-24T08:36:28+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/progetti/</loc>
@@ -19,12 +25,6 @@
   </url><url>
     <loc>http://localhost:1313/progetti/react/</loc>
     <lastmod>2024-07-24T08:36:28+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/film/anatomiadiunacaduta/</loc>
-    <lastmod>2024-07-23T20:22:35+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/film/</loc>
-    <lastmod>2024-07-23T20:22:35+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/contatti/</loc>
     <lastmod>2024-07-23T14:51:19+02:00</lastmod>
