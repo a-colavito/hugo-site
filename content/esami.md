@@ -2,7 +2,7 @@
 Title= "Esami Mancanti"
 date=2024-07-23T14:51:19+02:00
 +++
-ne restano solo **6**!
+ne restano solo **5**!
 
 - ~~ALGORITMI E STRUTTURE DATI IN JAVA~~
 - ~~ANALISI MATEMATICA~~
