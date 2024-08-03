@@ -3,7 +3,7 @@ title= 'Benvenuti nel mio Sito!'
 layout= "home"
 
 +++
-Ciao sono Adolfo, ingegnere informatico  <a href="/esami/"><mark><em >wannabe.</em></mark> </a>
+Ciao sono Adolfo, ingegnere informatico  <a href="/esami/" style ="text-decoration: none"><mark><em>wannabe.</em></mark> </a>
 In questo sito troverai i miei progetti, i libri che leggo e i film visti di recente.  
 Non solo quindi un sito portfolio ma uno spazio ibrido dove potrai capire cosa mi piace fare nei vari contesti che occupano la mia vita: lavorativo, culturale, sportivo.  
 Il sito è semplice ed essenziale, senza inutili complicazioni, modulare e facilmente aggiornabile, il tutto grazie a un mix efficiente di <a href="/progetti/aboutsite" style ="color: #343a40"><b>Hugo & Bootstrap</b></a>.
