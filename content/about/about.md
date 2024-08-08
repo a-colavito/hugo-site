@@ -12,7 +12,7 @@ per tutto il resto, se ti va, facciamoci una chiacchierata:
 
 <br>
 <br>
-<form name="contact" method="POST" data-netlify="true" class="contact-form">
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success" class="contact-form">
   <input type="hidden" name="form-name" value="contact" />
   <div class="form-group">
     <label for="name">Nome</label>
@@ -26,7 +26,7 @@ per tutto il resto, se ti va, facciamoci una chiacchierata:
     <label for="message">Messaggio</label>
     <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
   </div>
-  <button type="submit" class="btn btn-dark">Invia</button>
+  <button type="submit" class="btn btn-dark" href ="/success">Invia</button>
  
 </form>
 

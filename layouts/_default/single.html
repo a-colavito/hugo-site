@@ -5,10 +5,12 @@
     <header class="mb-4">
       <h1 class="display-4">{{ .Title }}</h1>
       {{ if not .IsHome }}
-       <p class="text-muted">
-          {{ $mese := index $mesi (.Date.Format "January") }}
-          Scritto il: {{ .Date.Format "2" }} {{ $mese }} {{ .Date.Format "2006" }}<br>
-        </p>
+        {{ if not (eq .File.BaseFileName "success") }}
+          <p class="text-muted">
+            {{ $mese := index $mesi (.Date.Format "January") }}
+            Scritto il: {{ .Date.Format "2" }} {{ $mese }} {{ .Date.Format "2006" }}<br>
+          </p>
+        {{ end }}
       {{ end }}
     </header>
     <section class="post-content">

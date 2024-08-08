@@ -50,5 +50,12 @@
       <guid>http://localhost:1313/contatti/contatti/</guid>
       <description>email: adolfocolavito@hotmail.it</description>
     </item>
+    <item>
+      <title>Grazie per avermi contattato!</title>
+      <link>http://localhost:1313/success/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/success/</guid>
+      <description>Grazie! Il tuo messaggio è stato inviato con successo.</description>
+    </item>
   </channel>
 </rss>
