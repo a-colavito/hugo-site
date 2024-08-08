@@ -23,7 +23,7 @@ main {
 }
 
 .navbar .btn {
-  padding: 3px; 
+  padding: 0; 
   border: none; 
   background-color: transparent; 
 }
