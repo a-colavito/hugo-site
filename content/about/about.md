@@ -12,21 +12,29 @@ per tutto il resto, se ti va, facciamoci una chiacchierata:
 
 <br>
 <br>
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/success" class="contact-form">
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="needs-validation" novalidate>
   <input type="hidden" name="form-name" value="contact" />
+
+  <!-- Honeypot field for spam prevention -->
+  <div hidden>
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </div>
+
   <div class="form-group">
-    <label for="name">Nome</label>
-    <input type="text" class="form-control" id="name" name="name" required>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" class="form-control" required />
+    <div class="invalid-feedback">Per favore inserisci il tuo nome.</div>
   </div>
   <div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" class="form-control" id="email" name="email" required>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" class="form-control" required />
+    <div class="invalid-feedback">Per favore inserisci un'email valida.</div>
   </div>
   <div class="form-group">
-    <label for="message">Messaggio</label>
-    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+    <label for="message">Messaggio:</label>
+    <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
+    <div class="invalid-feedback">Per favore inserisci il tuo messaggio.</div>
   </div>
-  <button type="submit" class="btn btn-dark" href ="/success">Invia</button>
- 
+  <button type="submit" class="btn btn-dark">Invia</button>
 </form>
 
