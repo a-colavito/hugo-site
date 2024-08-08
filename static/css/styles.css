@@ -42,21 +42,4 @@ main {
 }
 
 
-.cv-link {
-  display: inline-flex; /* Usare inline-flex per allineare perfettamente come elemento inline */
-  padding: 0.1rem;
-  color: #4a4a4b; /* Colore del testo del link (grigio scuro degli elementi) */
-  text-decoration: none; /* Rimuove la sottolineatura */
-  border: 0.01px solid #4a4a4b; /* Bordo sottile dello stesso colore del testo */
-  border-radius: 8px; /* Angoli arrotondati */
-  background-color: #f8f9fa; /* Colore di sfondo (grigio chiaro) */
-  transition: all 0.3s ease; /* Transizione fluida per hover */
-}
 
-.cv-link:hover,
-.cv-link:focus {
-  color:#f8f9fa ; /* Colore del testo al passaggio del mouse (bianco) */
-  background-color: #4a4a4b; /* Colore di sfondo al passaggio del mouse (grigio scuro) */
-  border-color: #4a4a4b; /* Colore del bordo al passaggio del mouse (grigio scuro) */
-  text-decoration: none;
-}
