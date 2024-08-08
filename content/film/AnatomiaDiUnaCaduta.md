@@ -3,6 +3,7 @@ title = 'Anatomia di una caduta'
 date = 2024-07-30
 draft = false
 author= "Adolfo Colavito"
+image= "https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117592/AnatomiaCaduta_wltd6d.png"
 +++ 
 
 <img src="https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117592/AnatomiaCaduta_wltd6d.png" class="img-fluid">
