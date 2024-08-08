@@ -17,8 +17,26 @@ main {
   flex-shrink: 0;
 }
 .navbar-toggler-close-icon {
-  font-size: 1.25rem; /* Adjust the size as needed */
+  font-size: 1.25rem; 
   line-height: 1.5;
   font-weight: bold;
 }
 
+.navbar .btn {
+  padding: 3px; 
+  border: none; 
+  background-color: transparent; 
+}
+.navbar .btn:hover {
+  color: #4a4a4b;
+
+}
+
+.navbar .btn i {
+  font-size: 1.75rem; 
+}
+
+.navbar .navbar-brand {
+  display: flex;
+  align-items: center; 
+}
