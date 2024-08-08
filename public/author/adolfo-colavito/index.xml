@@ -6,8 +6,15 @@
     <description>Recent content in Adolfo Colavito on Home</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 08 Aug 2024 14:16:50 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 08 Aug 2024 22:09:59 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/author/adolfo-colavito/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hey, benvenuto!</title>
+      <link>http://localhost:1313/home/</link>
+      <pubDate>Thu, 08 Aug 2024 22:09:59 +0200</pubDate>
+      <guid>http://localhost:1313/home/</guid>
+      <description>Sono Adolfo, ingegnere informatico wannabe. In questo sito troverai i miei progetti, i libri che leggo e i film visti di recente.&#xA;Non solo quindi un sito portfolio ma uno spazio ibrido dove potrai capire cosa mi piace fare nei vari contesti che occupano la mia vita: lavorativo, culturale, sportivo (quest&amp;rsquo;ultima sezione arriverà presto).&#xA;Il sito è semplice ed essenziale, senza inutili complicazioni, modulare e facilmente aggiornabile, il tutto grazie a un mix efficiente di Hugo &amp;amp; Bootstrap.</description>
+    </item>
     <item>
       <title>Gomorra</title>
       <link>http://localhost:1313/libri/gomorra/</link>
