@@ -35,6 +35,9 @@ Hai un'idea da condividere, una proposta di collaborazione o semplicemente vuoi 
     <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
     <div class="invalid-feedback">Per favore inserisci il tuo messaggio.</div>
   </div>
-  <button type="submit" class="btn btn-dark">Invia</button>
+  <div class="text-center py-4">
+  <button type="submit" class="btn btn-dark btn-lg" >Invia</button>
+  </div>
+  
 </form>
 
