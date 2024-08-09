@@ -8,7 +8,7 @@ Ciao! Sono Adolfo, classe 97', diplomato al classico e attualmente studente pres
 <li> Correre
 <li> I Radiohead
 </ul>
-per tutto il resto, se ti va, facciamoci una chiacchierata:
+Hai un'idea da condividere, una proposta di collaborazione o semplicemente vuoi fare due chiacchiere? Compila il form qui sotto, e sarò felice di sentirti!
 
 <br>
 <br>
