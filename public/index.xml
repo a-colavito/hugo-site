@@ -2,73 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>http://localhost:1313/</link>
+    <link>https://acolavito.netlify.app/</link>
     <description>Recent content on Home</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Aug 2024 22:09:59 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://acolavito.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hey, benvenuto!</title>
-      <link>http://localhost:1313/home/</link>
+      <link>https://acolavito.netlify.app/home/</link>
       <pubDate>Thu, 08 Aug 2024 22:09:59 +0200</pubDate>
-      <guid>http://localhost:1313/home/</guid>
+      <guid>https://acolavito.netlify.app/home/</guid>
       <description>Sono Adolfo, ingegnere informatico wannabe. In questo sito troverai i miei progetti, i libri che leggo e i film visti di recente.&#xA;Non solo quindi un sito portfolio ma uno spazio ibrido dove potrai capire cosa mi piace fare nei vari contesti che occupano la mia vita: lavorativo, culturale, sportivo (quest&amp;rsquo;ultima sezione arriverà presto).&#xA;Il sito è semplice ed essenziale, senza inutili complicazioni, modulare e facilmente aggiornabile, il tutto grazie a un mix efficiente di Hugo &amp;amp; Bootstrap.</description>
     </item>
     <item>
       <title>Gomorra</title>
-      <link>http://localhost:1313/libri/gomorra/</link>
+      <link>https://acolavito.netlify.app/libri/gomorra/</link>
       <pubDate>Thu, 08 Aug 2024 14:16:50 +0200</pubDate>
-      <guid>http://localhost:1313/libri/gomorra/</guid>
+      <guid>https://acolavito.netlify.app/libri/gomorra/</guid>
       <description></description>
     </item>
     <item>
       <title>Anatomia di una caduta</title>
-      <link>http://localhost:1313/film/anatomiadiunacaduta/</link>
+      <link>https://acolavito.netlify.app/film/anatomiadiunacaduta/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/film/anatomiadiunacaduta/</guid>
+      <guid>https://acolavito.netlify.app/film/anatomiadiunacaduta/</guid>
       <description>Anatomia di una caduta è il film pluripremiato della regista francese Justine Triet. Tra il 2023 e il 2024, ha vinto numerosi premi, tra cui la Palma d&#39;Oro a Cannes, l&#39;Oscar per la miglior sceneggiatura originale e il Miglior film straniero ai Golden Globe. Il motivo è chiaro: è un film brillante, realistico e a tratti molto amaro.&#xD;Il film mantiene ciò che il titolo promette, offrendo una vera e propria dissezione di una caduta e di una famiglia.</description>
     </item>
     <item>
       <title>A proposito di questo sito...</title>
-      <link>http://localhost:1313/progetti/aboutsite/</link>
+      <link>https://acolavito.netlify.app/progetti/aboutsite/</link>
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
-      <guid>http://localhost:1313/progetti/aboutsite/</guid>
+      <guid>https://acolavito.netlify.app/progetti/aboutsite/</guid>
       <description>HUGO, HUGO, HUGO! </description>
     </item>
     <item>
       <title>Sito con REACT &#43; REST</title>
-      <link>http://localhost:1313/progetti/react/</link>
+      <link>https://acolavito.netlify.app/progetti/react/</link>
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
-      <guid>http://localhost:1313/progetti/react/</guid>
+      <guid>https://acolavito.netlify.app/progetti/react/</guid>
       <description>Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&#xA;Ma, perché REACT?</description>
     </item>
     <item>
-      <title>Contatti</title>
-      <link>http://localhost:1313/contatti/contatti/</link>
-      <pubDate>Tue, 23 Jul 2024 14:51:19 +0200</pubDate>
-      <guid>http://localhost:1313/contatti/contatti/</guid>
-      <description>email: adolfocolavito@hotmail.it</description>
-    </item>
-    <item>
       <title>Esami Mancanti</title>
-      <link>http://localhost:1313/esami/</link>
+      <link>https://acolavito.netlify.app/esami/</link>
       <pubDate>Tue, 23 Jul 2024 14:51:19 +0200</pubDate>
-      <guid>http://localhost:1313/esami/</guid>
+      <guid>https://acolavito.netlify.app/esami/</guid>
       <description>ne restano solo 5!&#xA;ALGORITMI E STRUTTURE DATI IN JAVA ANALISI MATEMATICA CHIMICA ECONOMIA ED ORGANIZZAZIONE AZIENDALE FISICA GENERALE GEOMETRIA E ALGEBRA INFORMATICA PER L&amp;rsquo;INGEGNERIA INGLESE BASI DI DATI E SISTEMI INFORMATIVI CALCOLO NUMERICO ELETTROTECNICA FISICA DELL&amp;rsquo;ELETTROMAGNETISMO E DELL&amp;rsquo;OTTICA FONDAMENTI DI AUTOMATICA FONDAMENTI DI ELETTRONICA SISTEMI OPERATIVI CALCOLATORI ELETTRONICI CONTROLLO DIGITALE FONDAMENTI DELLA MISURAZIONE FONDAMENTI DELLE TELECOMUNICAZIONI INGEGNERIA DEL SW E FONDAMENTI WEB MATERIALI PER L&amp;rsquo;INGEGNERIA ELETTRICA METODI DI OTTIMIZZAZIONE RETI DI TELECOMUNICAZIONI </description>
     </item>
     <item>
       <title>Grazie per avermi contattato!</title>
-      <link>http://localhost:1313/success/</link>
+      <link>https://acolavito.netlify.app/success/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/success/</guid>
+      <guid>https://acolavito.netlify.app/success/</guid>
       <description>Grazie! Il tuo messaggio è stato inviato con successo.</description>
     </item>
     <item>
       <title>Info e contatti</title>
-      <link>http://localhost:1313/about/about/</link>
+      <link>https://acolavito.netlify.app/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/about/</guid>
+      <guid>https://acolavito.netlify.app/about/about/</guid>
       <description>Ciao! Sono Adolfo, classe 97&amp;rsquo;, diplomato al classico e attualmente studente presso la facoltà di Ingegneria Ingormatica del Politecnico di Bari, ma queste cose potrai leggerle nel curriculum&#xD;quindi saltiamo alla parte meno noiosa ecco una lista di cose che mi piacciono:&#xA;I gatti&#xD;Correre&#xD;I Radiohead&#xD;per tutto il resto, se ti va, facciamoci una chiacchierata:&#xD;Don’t fill this out if you&#39;re human: Nome:&#xD;Per favore inserisci il tuo nome.</description>
     </item>
   </channel>
