@@ -2,7 +2,7 @@
 title: "Info e contatti"
 layout: "about"
 ---
-Ciao! Sono Adolfo, classe 97', diplomato al classico e attualmente studente presso la facoltà di Ingegneria Ingormatica del Politecnico di Bari, ma queste cose potrai leggerle nel {{< embed-pdf url="/PDF/CV_eng_.pdf" >}} quindi saltiamo alla parte meno noiosa ecco una lista di cose che mi piacciono:
+Ciao! Sono Adolfo, classe 97', diplomato al classico e attualmente studente presso la facoltà di Ingegneria Ingormatica del Politecnico di Bari, ma queste cose potrai leggerle nel <a href="/PDF/CV_it_.pdf" download>curriculum</a> quindi saltiamo alla parte meno noiosa ecco una lista di cose che mi piacciono:
 <ul style ="list-style: circle">
 <li> I gatti
 <li> Correre

@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Adolfo Colavito on Home</title>
-    <link>https://acolavito.netlify.app/author/adolfo-colavito/</link>
+    <link>http://localhost:1313/author/adolfo-colavito/</link>
     <description>Recent content in Adolfo Colavito on Home</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 08 Aug 2024 22:09:59 +0200</lastBuildDate>
-    <atom:link href="https://acolavito.netlify.app/author/adolfo-colavito/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/author/adolfo-colavito/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hey, benvenuto!</title>
-      <link>https://acolavito.netlify.app/home/</link>
+      <link>http://localhost:1313/home/</link>
       <pubDate>Thu, 08 Aug 2024 22:09:59 +0200</pubDate>
-      <guid>https://acolavito.netlify.app/home/</guid>
+      <guid>http://localhost:1313/home/</guid>
       <description>Sono Adolfo, ingegnere informatico wannabe. In questo sito troverai i miei progetti, i libri che leggo e i film visti di recente.&#xA;Non solo quindi un sito portfolio ma uno spazio ibrido dove potrai capire cosa mi piace fare nei vari contesti che occupano la mia vita: lavorativo, culturale, sportivo (quest&amp;rsquo;ultima sezione arriverà presto).&#xA;Il sito è semplice ed essenziale, senza inutili complicazioni, modulare e facilmente aggiornabile, il tutto grazie a un mix efficiente di Hugo &amp;amp; Bootstrap.</description>
     </item>
     <item>
       <title>Gomorra</title>
-      <link>https://acolavito.netlify.app/libri/gomorra/</link>
+      <link>http://localhost:1313/libri/gomorra/</link>
       <pubDate>Thu, 08 Aug 2024 14:16:50 +0200</pubDate>
-      <guid>https://acolavito.netlify.app/libri/gomorra/</guid>
+      <guid>http://localhost:1313/libri/gomorra/</guid>
       <description></description>
     </item>
     <item>
       <title>Anatomia di una caduta</title>
-      <link>https://acolavito.netlify.app/film/anatomiadiunacaduta/</link>
+      <link>http://localhost:1313/film/anatomiadiunacaduta/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://acolavito.netlify.app/film/anatomiadiunacaduta/</guid>
+      <guid>http://localhost:1313/film/anatomiadiunacaduta/</guid>
       <description>Anatomia di una caduta è il film pluripremiato della regista francese Justine Triet. Tra il 2023 e il 2024, ha vinto numerosi premi, tra cui la Palma d&#39;Oro a Cannes, l&#39;Oscar per la miglior sceneggiatura originale e il Miglior film straniero ai Golden Globe. Il motivo è chiaro: è un film brillante, realistico e a tratti molto amaro.&#xD;Il film mantiene ciò che il titolo promette, offrendo una vera e propria dissezione di una caduta e di una famiglia.</description>
     </item>
     <item>
       <title>A proposito di questo sito...</title>
-      <link>https://acolavito.netlify.app/progetti/aboutsite/</link>
+      <link>http://localhost:1313/progetti/aboutsite/</link>
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
-      <guid>https://acolavito.netlify.app/progetti/aboutsite/</guid>
+      <guid>http://localhost:1313/progetti/aboutsite/</guid>
       <description>HUGO, HUGO, HUGO! </description>
     </item>
     <item>
       <title>Sito con REACT &#43; REST</title>
-      <link>https://acolavito.netlify.app/progetti/react/</link>
+      <link>http://localhost:1313/progetti/react/</link>
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
-      <guid>https://acolavito.netlify.app/progetti/react/</guid>
+      <guid>http://localhost:1313/progetti/react/</guid>
       <description>Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&#xA;Ma, perché REACT?</description>
     </item>
     <item>
       <title>Grazie per avermi contattato!</title>
-      <link>https://acolavito.netlify.app/success/</link>
+      <link>http://localhost:1313/success/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://acolavito.netlify.app/success/</guid>
+      <guid>http://localhost:1313/success/</guid>
       <description>Grazie! Il tuo messaggio è stato inviato con successo.</description>
     </item>
   </channel>
