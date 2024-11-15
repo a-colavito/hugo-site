@@ -6,4 +6,4 @@ author= "Adolfo Colavito"
 +++ 
 
 
-<p>Grazie! Il tuo messaggio è stato inviato con successo.</p>
+<p>Il tuo messaggio è stato inviato con successo, risponderò ASAP</p>

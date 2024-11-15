@@ -13,7 +13,7 @@
       <link>http://localhost:1313/home/</link>
       <pubDate>Thu, 08 Aug 2024 22:09:59 +0200</pubDate>
       <guid>http://localhost:1313/home/</guid>
-      <description>Sono Adolfo, ingegnere informatico wannabe. In questo sito troverai i miei progetti, i libri che leggo e i film visti di recente.&#xA;Non solo quindi un sito portfolio ma uno spazio ibrido dove potrai capire cosa mi piace fare nei vari contesti che occupano la mia vita: lavorativo, culturale, sportivo (quest&amp;rsquo;ultima sezione arriverà presto).&#xA;Il sito è semplice ed essenziale, senza inutili complicazioni, modulare e facilmente aggiornabile, il tutto grazie a un mix efficiente di Hugo &amp;amp; Bootstrap.</description>
+      <description>&lt;p&gt;Sono Adolfo, ingegnere informatico  &lt;a href=&#34;http://localhost:1313/esami/&#34; style =&#34;text-decoration: none&#34;&gt;&lt;mark&gt;&lt;em&gt;wannabe.&lt;/em&gt;&lt;/mark&gt; &lt;/a&gt;&#xA;In questo sito troverai i miei progetti, i libri che leggo e i film visti di recente.&lt;br&gt;&#xA;Non solo quindi un sito portfolio ma uno spazio ibrido dove potrai capire cosa mi piace fare nei vari contesti che occupano la mia vita: lavorativo, culturale, sportivo (quest&amp;rsquo;ultima sezione arriverà presto).&lt;br&gt;&#xA;Il sito è semplice ed essenziale, senza inutili complicazioni, modulare e facilmente aggiornabile, il tutto grazie a un mix efficiente di &lt;a href=&#34;http://localhost:1313/progetti/aboutsite&#34; style =&#34;color: #282c30;&#34;&gt;&lt;b&gt;Hugo &amp;amp; Bootstrap&lt;/b&gt;&lt;/a&gt;.&#xA;Per qualsiasi curiosità, proposta di progetto o scambio di idee, non esistare a &lt;a href=&#34;http://localhost:1313/about/about&#34; style=&#34;color: #282c30; &#34;&gt; contattarmi!&lt;/a&gt;  (giuro leggo anche la cartella di spam)&lt;/p&gt;</description>
     </item>
     <item>
       <title>Gomorra</title>
@@ -27,28 +27,28 @@
       <link>http://localhost:1313/film/anatomiadiunacaduta/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/film/anatomiadiunacaduta/</guid>
-      <description>Anatomia di una caduta è il film pluripremiato della regista francese Justine Triet. Tra il 2023 e il 2024, ha vinto numerosi premi, tra cui la Palma d&#39;Oro a Cannes, l&#39;Oscar per la miglior sceneggiatura originale e il Miglior film straniero ai Golden Globe. Il motivo è chiaro: è un film brillante, realistico e a tratti molto amaro.&#xD;Il film mantiene ciò che il titolo promette, offrendo una vera e propria dissezione di una caduta e di una famiglia.</description>
+      <description>&lt;img src=&#34;https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117592/AnatomiaCaduta_wltd6d.png&#34; class=&#34;img-fluid&#34;&gt;&#xD;&#xA;&lt;hr&gt;&#xD;&#xA;&lt;p&gt;&#xD;&#xA;Anatomia di una caduta è il film pluripremiato della regista francese Justine Triet. Tra il 2023 e il 2024, ha vinto numerosi premi, tra cui la Palma d&#39;Oro a Cannes, l&#39;Oscar per la miglior sceneggiatura originale e il Miglior film straniero ai Golden Globe. Il motivo è chiaro: è un film brillante, realistico e a tratti molto amaro.&#xD;&#xA;Il film mantiene ciò che il titolo promette, offrendo una vera e propria &lt;em&gt; dissezione &lt;/em&gt; di una caduta e di una famiglia. Ma andiamo con ordine.&#xD;&#xA;&lt;h3&gt;Trama&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Sandra e Samuel, una coppia di scrittori e accademici, vivono in una località sperduta tra le Alpi francesi con il loro figlio Daniel e il cane Snoop. La coppia è in crisi da tempo. Una mattina, Samuel alza al massimo il volume dello stereo mentre Sandra viene intervistata da una studentessa, costringendo quest&#39;ultima a concludere l&#39;intervista. Poco dopo, Samuel sembra buttarsi dall&#39;ultimo piano di casa, morendo. Seguiranno diverse udienze in tribunale, in cui viene ricostruita la vicenda e la vita di coppia fino alla risoluzione della trama.  &lt;/p&gt;</description>
     </item>
     <item>
       <title>A proposito di questo sito...</title>
       <link>http://localhost:1313/progetti/aboutsite/</link>
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
       <guid>http://localhost:1313/progetti/aboutsite/</guid>
-      <description>HUGO, HUGO, HUGO! </description>
+      <description>&lt;h2 id=&#34;hugo-hugo-hugo&#34;&gt;HUGO, HUGO, HUGO!&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Sito con REACT &#43; REST</title>
       <link>http://localhost:1313/progetti/react/</link>
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
       <guid>http://localhost:1313/progetti/react/</guid>
-      <description>Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&#xA;Ma, perché REACT?</description>
+      <description>&lt;p&gt;Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&lt;br&gt;&#xA;Ma, &lt;strong&gt;perché REACT?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Grazie per avermi contattato!</title>
       <link>http://localhost:1313/success/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/success/</guid>
-      <description>Grazie! Il tuo messaggio è stato inviato con successo.</description>
+      <description>&lt;p&gt;Il tuo messaggio è stato inviato con successo, risponderò ASAP&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -13,14 +13,14 @@
       <link>http://localhost:1313/progetti/aboutsite/</link>
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
       <guid>http://localhost:1313/progetti/aboutsite/</guid>
-      <description>HUGO, HUGO, HUGO! </description>
+      <description>&lt;h2 id=&#34;hugo-hugo-hugo&#34;&gt;HUGO, HUGO, HUGO!&lt;/h2&gt;</description>
     </item>
     <item>
       <title>Sito con REACT &#43; REST</title>
       <link>http://localhost:1313/progetti/react/</link>
       <pubDate>Wed, 24 Jul 2024 08:36:28 +0200</pubDate>
       <guid>http://localhost:1313/progetti/react/</guid>
-      <description>Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&#xA;Ma, perché REACT?</description>
+      <description>&lt;p&gt;Sito in React per amici produttori musicali. Ho voluto qui mettere a frutto le conoscenza apprese durante il corso di Fondamanti del Web.&lt;br&gt;&#xA;Ma, &lt;strong&gt;perché REACT?&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
