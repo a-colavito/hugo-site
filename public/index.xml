@@ -17,16 +17,16 @@
     </item>
     <item>
       <title>Gomorra</title>
-      <link>http://localhost:1313/libri/gomorra/</link>
+      <link>http://localhost:1313/blog/gomorra/</link>
       <pubDate>Thu, 08 Aug 2024 14:16:50 +0200</pubDate>
-      <guid>http://localhost:1313/libri/gomorra/</guid>
+      <guid>http://localhost:1313/blog/gomorra/</guid>
       <description></description>
     </item>
     <item>
       <title>Anatomia di una caduta</title>
-      <link>http://localhost:1313/film/anatomiadiunacaduta/</link>
+      <link>http://localhost:1313/blog/anatomiadiunacaduta/</link>
       <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/film/anatomiadiunacaduta/</guid>
+      <guid>http://localhost:1313/blog/anatomiadiunacaduta/</guid>
       <description>&lt;img src=&#34;https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117592/AnatomiaCaduta_wltd6d.png&#34; class=&#34;img-fluid&#34;&gt;&#xD;&#xA;&lt;hr&gt;&#xD;&#xA;&lt;p&gt;&#xD;&#xA;Anatomia di una caduta è il film pluripremiato della regista francese Justine Triet. Tra il 2023 e il 2024, ha vinto numerosi premi, tra cui la Palma d&#39;Oro a Cannes, l&#39;Oscar per la miglior sceneggiatura originale e il Miglior film straniero ai Golden Globe. Il motivo è chiaro: è un film brillante, realistico e a tratti molto amaro.&#xD;&#xA;Il film mantiene ciò che il titolo promette, offrendo una vera e propria &lt;em&gt; dissezione &lt;/em&gt; di una caduta e di una famiglia. Ma andiamo con ordine.&#xD;&#xA;&lt;h3&gt;Trama&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;Sandra e Samuel, una coppia di scrittori e accademici, vivono in una località sperduta tra le Alpi francesi con il loro figlio Daniel e il cane Snoop. La coppia è in crisi da tempo. Una mattina, Samuel alza al massimo il volume dello stereo mentre Sandra viene intervistata da una studentessa, costringendo quest&#39;ultima a concludere l&#39;intervista. Poco dopo, Samuel sembra buttarsi dall&#39;ultimo piano di casa, morendo. Seguiranno diverse udienze in tribunale, in cui viene ricostruita la vicenda e la vita di coppia fino alla risoluzione della trama.  &lt;/p&gt;</description>
     </item>
     <item>
@@ -62,7 +62,7 @@
       <link>http://localhost:1313/about/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/about/</guid>
-      <description>&lt;p&gt;Ciao! Sono Adolfo, classe 97&amp;rsquo;, diplomato al classico e attualmente studente presso la facoltà di Ingegneria Informatica del Politecnico di Bari, ma queste cose potrai leggerle nel &lt;a href=&#39;#&#39; onclick= &#34;window.open(&#39;/PDF/CV_it_.pdf&#39;)&#34;&gt;curriculum&lt;/a&gt; quindi saltiamo alla parte meno noiosa ecco una lista di cose che mi piacciono:&lt;/p&gt;&#xA;&lt;ul style =&#34;list-style: circle&#34;&gt;&#xD;&#xA;&lt;li&gt; I gatti&#xD;&#xA;&lt;li&gt; Correre&#xD;&#xA;&lt;li&gt; I Radiohead&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;Hai un&#39;idea da condividere, una proposta di collaborazione o semplicemente vuoi fare due chiacchiere? Compila il form qui sotto, e sarò felice di sentirti!&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;br&gt;&#xD;&#xA;&lt;form name=&#34;contact&#34;  action =&#34;/success&#34; method=&#34;POST&#34; data-netlify=&#34;true&#34; netlify-honeypot=&#34;bot-field&#34; class=&#34;needs-validation&#34; novalidate&gt;&#xD;&#xA;  &lt;input type=&#34;hidden&#34; name=&#34;form-name&#34; value=&#34;contact&#34; /&gt;&#xD;&#xA;  &lt;!-- Honeypot field for spam prevention --&gt;&#xD;&#xA;  &lt;div hidden&gt;&#xD;&#xA;    &lt;label&gt;Don’t fill this out if you&#39;re human: &lt;input name=&#34;bot-field&#34; /&gt;&lt;/label&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;name&#34;&gt;Nome:&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;text&#34; id=&#34;name&#34; name=&#34;name&#34; class=&#34;form-control&#34; required /&gt;&#xD;&#xA;    &lt;div class=&#34;invalid-feedback&#34;&gt;Per favore inserisci il tuo nome.&lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;email&#34;&gt;Email:&lt;/label&gt;&#xD;&#xA;    &lt;input type=&#34;email&#34; id=&#34;email&#34; name=&#34;email&#34; class=&#34;form-control&#34; required /&gt;&#xD;&#xA;    &lt;div class=&#34;invalid-feedback&#34;&gt;Per favore inserisci un&#39;email valida.&lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;form-group&#34;&gt;&#xD;&#xA;    &lt;label for=&#34;message&#34;&gt;Messaggio:&lt;/label&gt;&#xD;&#xA;    &lt;textarea id=&#34;message&#34; name=&#34;message&#34; class=&#34;form-control&#34; rows=&#34;4&#34; required&gt;&lt;/textarea&gt;&#xD;&#xA;    &lt;div class=&#34;invalid-feedback&#34;&gt;Per favore inserisci il tuo messaggio.&lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;  &lt;div class=&#34;text-center py-4&#34;&gt;&#xD;&#xA;  &lt;button type=&#34;submit&#34; class=&#34;btn btn-dark btn-lg&#34; &gt;Invia&lt;/button&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/form&gt;</description>
+      <description>&lt;p&gt;Ciao! Sono Adolfo, classe &amp;lsquo;97, diplomato al classico e attualmente studente presso la facoltà di Ingegneria Informatica del Politecnico di Bari, ma queste cose potrai leggerle nel&#xA;&lt;a href=&#39;#&#39; onclick=&#34;window.open(&#39;/PDF/CV_it_.pdf&#39;)&#34; class=&#34;text-blue-600 hover:underline&#34;&gt;curriculum&lt;/a&gt;, quindi saltiamo alla parte meno noiosa ecco una lista di cose che mi piacciono:&lt;/p&gt;&#xA;&lt;ul class=&#34;list-disc pl-6 mb-4&#34;&gt;&#xD;&#xA;  &lt;li&gt;I gatti&lt;/li&gt;&#xD;&#xA;  &lt;li&gt;Correre&lt;/li&gt;&#xD;&#xA;  &lt;li&gt;I Radiohead&lt;/li&gt;&#xD;&#xA;&lt;/ul&gt;&#xD;&#xA;&lt;p&gt;Hai un&amp;rsquo;idea da condividere, una proposta di collaborazione o semplicemente vuoi fare due chiacchiere? Compila il form qui sotto, e sarò felice di sentirti!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

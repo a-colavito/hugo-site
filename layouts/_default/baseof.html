@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="it">
 {{ partial "head.html" . }}
-<body>
-  {{ partial "nav.html" . }}
-  <main role="main">
+
+<body class="min-h-screen flex flex-col {{ if .Site.Params.theme }}dark{{ else }}light{{ end }}">
+<!-- Navbar -->
+{{ partial "nav.html" . }}
+
+<!-- Main content -->
+<main role="main" class="flex-grow">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
     {{ block "main" . }}{{ end }}
-  </main>
-  {{ partial "footer.html" . }}
+  </div>
+</main>
 
-  <!-- Bootstrap JS and dependencies -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+<!-- Footer -->
+{{ partial "footer.html" . }}
 </body>
 </html>

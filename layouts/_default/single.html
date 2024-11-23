@@ -1,19 +1,22 @@
 {{ define "main" }}
 {{ $mesi := dict "January" "Gennaio" "February" "Febbraio" "March" "Marzo" "April" "Aprile" "May" "Maggio" "June" "Giugno" "July" "Luglio" "August" "Agosto" "September" "Settembre" "October" "Ottobre" "November" "Novembre" "December" "Dicembre" }}
-<div class="container mt-5">
+
+<!-- Contenitore principale senza la classe dark dinamica -->
+<div class="container mx-auto mt-12 px-4 lg:px-8">
   <article class="blog-post">
-    <header class="mb-4">
-      <h1 class="display-4">{{ .Title }}</h1>
+    <header class="mb-6">
+      <h1 class="text-4xl font-bold text-gray-900 dark:text-white">{{ .Title }}</h1>
       {{ if not .IsHome }}
-        {{ if not (eq .File.BaseFileName "success") }}
-          <p class="text-muted">
-            {{ $mese := index $mesi (.Date.Format "January") }}
-            Scritto il: {{ .Date.Format "2" }} {{ $mese }} {{ .Date.Format "2006" }}<br>
-          </p>
-        {{ end }}
+      {{ if not (eq .File.BaseFileName "success") }}
+      <p class="text-gray-500 text-sm mt-2 dark:text-gray-300">
+        {{ $mese := index $mesi (.Date.Format "January") }}
+        Scritto il: {{ .Date.Format "2" }} {{ $mese }} {{ .Date.Format "2006" }}<br>
+      </p>
+      {{ end }}
       {{ end }}
     </header>
-    <section class="post-content">
+
+    <section class="post-content prose prose-lg dark:prose-invert">
       {{ .Content }}
     </section>
   </article>

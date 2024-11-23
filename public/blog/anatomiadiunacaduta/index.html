@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AC | Anatomia di una caduta</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/css/main.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+
+  <script>
+    
+    if (localStorage.getItem('theme') === 'dark') {
+      document.body.classList.add('dark');
+    } else if (localStorage.getItem('theme') === 'light') {
+      document.body.classList.remove('dark');
+    }
+
+    
+    function toggleTheme() {
+      if (document.body.classList.contains('dark')) {
+        document.body.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.body.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
+  </script>
+
+
+
+</head>
+
+
+<body class="min-h-screen flex flex-col light">
+
+<nav class="bg-white dark:bg-gray-800">
+  <div class="container mx-auto px-4">
+    
+    <div class="flex justify-between items-center py-4">
+      
+      <a href="/home" class="inline-flex items-center px-4 py-2 text-gray-800 dark:text-gray-100 font-semibold text-sm no-underline rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-md focus:outline-none transition duration-200">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 mr-2">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 22V12h6v10" />
+        </svg>
+        Home
+      </a>
+
+      
+      <div class="hidden md:flex space-x-8">
+        <a href="/progetti" class="inline-flex items-center px-4 py-2 text-gray-800 dark:text-gray-100 font-semibold text-sm no-underline rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-md focus:outline-none transition duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 mr-2">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+          </svg>
+          Progetti
+        </a>
+        <a href="/blog" class="inline-flex items-center px-4 py-2 text-gray-800 dark:text-gray-100 font-semibold text-sm no-underline rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-md focus:outline-none transition duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 mr-2">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h8m-8 4h6m-7-8h10M5 20h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z" />
+          </svg>
+          Blog
+        </a>
+        <a href="/about/about" class="inline-flex items-center px-4 py-2 text-gray-800 dark:text-gray-100 font-semibold text-sm no-underline rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-md focus:outline-none transition duration-200">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 mr-2">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A4.25 4.25 0 0 1 8.75 16h6.5a4.25 4.25 0 0 1 3.63 1.804M12 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" />
+          </svg>
+          Contatti
+        </a>
+      </div>
+
+      
+      <div class="flex items-center space-x-4">
+        
+        <button id="dark-mode-toggle" class="p-2 rounded-full focus:outline-none focus:ring transition duration-200">
+          <svg id="sun-icon" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-800 dark:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m8.66-13.66l-.7.7m-13.72 0l.7.7M21 12h1M3 12H2m16.66 6.66l-.7-.7m-13.72 0l.7-.7M12 5a7 7 0 1 1 0 14a7 7 0 0 1 0-14z" />
+          </svg>
+          <svg id="moon-icon" xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-gray-800 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12.79A9 9 0 0 1 11.21 3a7 7 0 0 0 0 14.57A9 9 0 0 1 21 12.79z" />
+          </svg>
+        </button>
+
+        
+        <button id="menu-toggle" class="p-2 text-gray-800 dark:text-gray-100 font-semibold text-sm rounded-lg focus:outline-none focus:ring transition duration-200 md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  
+  <div id="dropdown-menu" class="absolute right-0 mt-2 w-48 bg-white dark:bg-gray-800 shadow-lg rounded-lg hidden z-10">
+    <a href="/progetti" class="inline-flex items-center px-4 py-2 text-gray-800 dark:text-gray-100 font-semibold text-sm no-underline rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-md focus:outline-none transition duration-200">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 mr-2">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+      </svg>
+      Progetti
+    </a>
+    <a href="/blog" class="inline-flex items-center px-4 py-2 text-gray-800 dark:text-gray-100 font-semibold text-sm no-underline rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-md focus:outline-none transition duration-200">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 mr-2">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h8m-8 4h6m-7-8h10M5 20h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2z" />
+      </svg>
+      Blog
+    </a>
+    <a href="/about/about" class="inline-flex items-center px-4 py-2 text-gray-800 dark:text-gray-100 font-semibold text-sm no-underline rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 hover:shadow-md focus:outline-none transition duration-200">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-6 h-6 mr-2">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5.121 17.804A4.25 4.25 0 0 1 8.75 16h6.5a4.25 4.25 0 0 1 3.63 1.804M12 14a4 4 0 1 1 0-8 4 4 0 0 1 0 8z" />
+      </svg>
+      Contatti
+    </a>
+  </div>
+</nav>
+<script>
+  
+  const menuToggle = document.getElementById("menu-toggle");
+  const dropdownMenu = document.getElementById("dropdown-menu");
+
+  
+  menuToggle.addEventListener("click", () => {
+    dropdownMenu.classList.toggle("hidden"); 
+  });
+</script>
+
+
+
+
+<main role="main" class="flex-grow">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+    
+
+
+
+<div class="container mx-auto mt-12 px-4 lg:px-8">
+  <article class="blog-post">
+    <header class="mb-6">
+      <h1 class="text-4xl font-bold text-gray-900 dark:text-white">Anatomia di una caduta</h1>
+      
+      
+      <p class="text-gray-500 text-sm mt-2 dark:text-gray-300">
+        
+        Scritto il: 30 Luglio 2024<br>
+      </p>
+      
+      
+    </header>
+
+    <section class="post-content prose prose-lg dark:prose-invert">
+      <img src="https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117592/AnatomiaCaduta_wltd6d.png" class="img-fluid">
+<hr>
+<p>
+Anatomia di una caduta è il film pluripremiato della regista francese Justine Triet. Tra il 2023 e il 2024, ha vinto numerosi premi, tra cui la Palma d'Oro a Cannes, l'Oscar per la miglior sceneggiatura originale e il Miglior film straniero ai Golden Globe. Il motivo è chiaro: è un film brillante, realistico e a tratti molto amaro.
+Il film mantiene ciò che il titolo promette, offrendo una vera e propria <em> dissezione </em> di una caduta e di una famiglia. Ma andiamo con ordine.
+<h3>Trama</h3>
+<p>Sandra e Samuel, una coppia di scrittori e accademici, vivono in una località sperduta tra le Alpi francesi con il loro figlio Daniel e il cane Snoop. La coppia è in crisi da tempo. Una mattina, Samuel alza al massimo il volume dello stereo mentre Sandra viene intervistata da una studentessa, costringendo quest'ultima a concludere l'intervista. Poco dopo, Samuel sembra buttarsi dall'ultimo piano di casa, morendo. Seguiranno diverse udienze in tribunale, in cui viene ricostruita la vicenda e la vita di coppia fino alla risoluzione della trama.  </p>
+<h3>Dissezionare i rapporti </h3>
+<blockquote> <em> "A volte una coppia è un po' un disastro e tutti sono perduti. A volte combattiamo insieme, a volte combattiamo da soli, a volte combattiamo gli uni contro gli altri" </em> </blockquote>
+<p>C&rsquo;è uno stereo che spara in tutta la casa la melodia di P.I.M.P di 50cent (versione instrumental) e poi cè il silenzio del corpo di Samuel caduto sulla neve e poi arrivano tutti. La dimensione intima e solitaria di quella casa e di quella famiglia i cui fragili equilibri sembrano protetti dalla neve e dalle alpi tutte intorno viene di colpo invasa dal mondo e il motivo è presto detto: c&rsquo;è un morto e ci si deve assicurare di come siano andati i fatti. L&rsquo;autopsia non riesce a chiarire se la nature delle ferite riportate da Samuel sia causata totalmente dalla caduta (avvalendo così l&rsquo;ipotesi del suicidio) o in parte anche da un oggetto contundente aprendo così la pista dell&rsquo;omicidio. Seguono diverse udienze, scritte magnificamente, dove è ben presente il fulcro di tutta la giurisprudenza: la verità non è qualcosa che esiste di per se, ma è qualcosa da ricavare, scoprire e deve essere garantita da testimoni, circostanze, prove. Non c&rsquo;è nessuna pietà, ne per Sandra ne per Daniel (che ricordiamo ha solo 11 anni) perchè la legge è uguale per tutti e l&rsquo;innocenza è garantita fino a prova contraria. Chi ha vissuto un divorzio lo sa bene, improvvisamente l&rsquo;intimità della vita di coppia viene messa sul tavolo da PM, avvocati e giudici, legata mani e piedi e dissezionata per sviscerare la natura dei fatti. E così nel processo vediamo l&rsquo;uso di registrazioni, sentiamo testimoniare lo psicoanalista di Samuel. Non c&rsquo;è riguardo per nessuno vivi o morti che siano, perchè è questo che fa la legge ed è questo che ci si aspetta faccia: dimostrare l&rsquo;innocenza o la colpevolezza <em>  fino a prova contraria.  </em> <br><br>
+<img src ="https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117590/Daniel_yy5qx5.jpg" class="img-fluid"> <br> <br>
+Il film  è quindi per buona parte un susseguirsi di udienze, ricostruzioni, accuse, difese, portate al giudizio oggettivo del mondo. L&rsquo;anatomia è solo <strong> un </strong> metodo di analisi. Analizzare un rene ad esempio,  ci permette di capirne esattamente le strutture e la materia di cui è composto, ma il rene è posto in un corpo, è una parte del sistema che quindi senza il sistema stesso non ha alcun senso di esistere. E&rsquo; esattamente su questo che il film gioca: cercare la verità non è scavare in una miniera tanto quanto non è abbandonarsi alle narrazioni soggettive, cercare la verità è un cammino ibrido dove i fatti mutano il loro senso se privati di contesto. Questo però è difficile da realizzare tanto nel mondo reale quanto nel film, è lo stesso Daniel che  infatti capisce di dover sottoporre all&rsquo;obbligo di prova quanto viene detto in tribunale e lo fa avvelenando il cane Snoop per provare che sì il padre aveva provato a togliersi la vita mesi prima con delle aspirine (Snoop era stato altrettanto male avendo ingerito il vomito di Samuel). In questa operazione di dissezione è proprio l&rsquo;infanzia di  Daniel a subire il colpo più duro.</p>
+<blockquote> <em> " Quando perdi non c'è altro da fare, non può succedere di peggio ma quando vinci ti aspetti una qualche ricompensa. Ma non c'è, è finita, tutto qui " </em> </blockquote>
+Queste sono le parole di Sandra all'avvocato Renzi dopo l'assoluzione a processo, in tutto questo susseguirsi di accuse e difese è proprio il morto ad essere dimenticatio: Sandra ha perso il suo compagno, Daniel il papà e la sua infanzia.
+<br> <br>
+<h3> Conclusioni </h3>
+<img src="https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117591/Anatomia2_zibkpx.png" class="img-fluid" >
+<br> <br>
+Che dire, sto scrivendo questo articolo (senza la pretesa che sia una recensione) proprio con P.I.M.P di 50 cent (instrumental) in testa e nelle orecchie per dirvi questo: Anatomia di una caduta è un film <mark> brillante. </mark> E' scritto e recitato magnificamente, ed è parte di quel genere chiamato "legal drama" di cui so veramente poco e spero di informari a breve. Correte a vederlo. 
+<br><br>
+</p> 
+    </section>
+  </article>
+</div>
+
+  </div>
+</main>
+
+
+<footer class="bg-white py-4">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <span class="text-gray-400">© 2024 Adolfo Colavito. Tutti i diritti riservati.</span>
+  </div>
+</footer>
+
+</body>
+</html>

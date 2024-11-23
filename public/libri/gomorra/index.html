@@ -10,40 +10,83 @@
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
   
-  <link href="/css/styles.css" rel="stylesheet">
-  <script src="/js/form.js"></script>
+  <link rel="stylesheet" href="/css/main.css">
+
+
 
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/home/">
-    <button type="button" class="btn btn-outline-primary">
-      <i class="fa-solid fa-house"></i>
-    </button>
-  </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="navbar-toggler">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="/progetti/"><i class="fas fa-laptop-code"></i> Progetti</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/film/"><i class="fas fa-film"></i> Film</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/libri/"><i class="fas fa-book"></i> Libri</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about/about"><i class="fas fa-user"></i> Contatti</a>
-      </li>
-    </ul>
-  </div>
-</nav>
 
-  <main role="main">
+<body class="min-h-screen flex flex-col">
+
+<nav class="bg-gray-100 border-b border-gray-200">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex justify-between items-center h-16">
+      
+      <a href="/home/" class="flex-shrink-0">
+        <button type="button" class="btn-home">
+          <i class="fa-solid fa-house text-xl text-gray-500"></i>
+        </button>
+      </a>
+
+      
+      <div class="-mr-2 flex md:hidden">
+        <button type="button" id="navbar-toggler" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-600 hover:bg-gray-200 focus:outline-none">
+          <span class="sr-only">Open menu</span>
+          
+          <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+      </div>
+
+      
+      <div class="hidden md:flex space-x-8">
+        <a href="/progetti/" class="text-gray-700 hover:text-blue-500 flex items-center no-underline">
+          <i class="fas fa-laptop-code mr-2"></i> Progetti
+        </a>
+        <a href="/film/" class="text-gray-700 hover:text-gray-500 flex items-center no-underline">
+          <i class="fas fa-film mr-2"></i> Film
+        </a>
+        <a href="/libri/" class="text-gray-700 hover:text-blue-500 flex items-center no-underline">
+          <i class="fas fa-book mr-2"></i> Libri
+        </a>
+        <a href="/about/about" class="text-gray-700 hover:text-blue-500 flex items-center no-underline">
+          <i class="fas fa-user mr-2"></i> Contatti
+        </a>
+      </div>
+
+  
+      <div id="mobile-menu" class="md:hidden hidden">
+        <div class="space-y-1 px-2 pt-2 pb-3">
+          <a href="/progetti/" class="block text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium no-underline">
+            <i class="fas fa-laptop-code mr-2"></i> Progetti
+          </a>
+          <a href="/film/" class="block text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium no-underline">
+            <i class="fas fa-film mr-2"></i> Film
+          </a>
+          <a href="/libri/" class="block text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium no-underline">
+            <i class="fas fa-book mr-2"></i> Libri
+          </a>
+          <a href="/about/about" class="block text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium no-underline">
+            <i class="fas fa-user mr-2"></i> Contatti
+          </a>
+        </div>
+      </div>
+
+</nav>
+<script>
+  const toggler = document.getElementById('navbar-toggler');
+  const menu = document.getElementById('mobile-menu');
+
+  toggler.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+
+<main role="main" class="flex-grow">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
     
 
 <div class="container mt-5">
@@ -65,19 +108,18 @@
   </article>
 </div>
 
-  </main>
-  
-<footer class="banner  text-white py-4">
-  <div class="container text-center">
-    <span class="text-muted">© 2024 Adolfo Colavito. Tutti i diritti riservati.</span>
+  </div>
+</main>
+
+
+<footer class="bg-gray-800 text-white py-4">
+  <div class="max-w-7xl mx-auto px-4 text-center">
+    <span class="text-gray-400">© 2024 Adolfo Colavito. Tutti i diritti riservati.</span>
   </div>
 </footer>
 
 
-  
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </body>
 </html>

@@ -1,0 +1,19 @@
+{
+  "name": "hugo-site",
+  "version": "1.0.0",
+  "description": "[bep]: https://github.com/bep\r [bugs]: https://github.com/gohugoio/hugo/issues?q=is%3Aopen+is%3Aissue+label%3ABug\r [contributing]: CONTRIBUTING.md\r [create a proposal]: https://github.com/gohugoio/hugo/issues/new?labels=Proposal%2C+NeedsTriage&template=feature_request.md\r [documentation repository]: https://github.com/gohugoio/hugoDocs\r [documentation]: https://gohugo.io/documentation\r [dragonfly bsd, freebsd, netbsd, and openbsd]: https://gohugo.io/installation/bsd\r [features]: https://gohugo.io/about/features/\r [forum]: https://discourse.gohugo.io\r [friends]: https://github.com/gohugoio/hugo/graphs/contributors\r [go]: https://go.dev/\r [hugo modules]: https://gohugo.io/hugo-modules/\r [installation]: https://gohugo.io/installation\r [issue queue]: https://github.com/gohugoio/hugo/issues\r [linux]: https://gohugo.io/installation/linux\r [macos]: https://gohugo.io/installation/macos\r [prebuilt binary]: https://github.com/gohugoio/hugo/releases/latest\r [requesting help]: https://discourse.gohugo.io/t/requesting-help/9132\r [spf13]: https://github.com/spf13\r [static site generator]: https://en.wikipedia.org/wiki/Static_site_generator\r [support]: https://discourse.gohugo.io\r [themes]: https://themes.gohugo.io/\r [website]: https://gohugo.io\r [windows]: https://gohugo.io/installation/windows",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwindcss build assets/css/main.css -o static/css/main.css",
+    "dev": "npm run build:css && hugo server"
+  }
+,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15"
+  }
+}

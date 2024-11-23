@@ -1,12 +1,20 @@
 {{ define "main" }}
-<div class="container mt-5">
-  <div class="row">
-    <div class="col-md-4">
-      <img src="https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117591/bio2_oq4zun.jpg" alt="Foto profilo" width="100%" class="rounded-pill"/>
+<div class="container mx-auto mt-5 px-4">
+  <div class="flex flex-col md:flex-row gap-6 items-start">
+    <!-- Immagine del profilo -->
+    <div class="md:w-1/3 w-full">
+      <img
+              src="https://res.cloudinary.com/dkkvkj82k/image/upload/v1723117591/bio2_oq4zun.jpg"
+              alt="Foto profilo"
+              class="w-full rounded-full"
+      />
     </div>
-    <div class="col-md-8">
-      <h1>{{ .Title }}</h1>
-      {{ .Content }}
+    <!-- Testo -->
+    <div class="md:w-2/3 w-full">
+      <h1 class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+      <div class="text-gray-700">
+        {{ .Content }}
+      </div>
     </div>
   </div>
 </div>
