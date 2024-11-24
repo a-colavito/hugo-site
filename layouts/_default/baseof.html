@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="it">
-{{ partial "head.html" . }}
+<html lang="it" class="dark">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body class="min-h-screen bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 flex flex-col">
 
-<body class="min-h-screen flex flex-col {{ if .Site.Params.theme }}dark{{ else }}light{{ end }}">
+
+
 <!-- Navbar -->
 {{ partial "nav.html" . }}
 
@@ -15,5 +19,6 @@
 
 <!-- Footer -->
 {{ partial "footer.html" . }}
+{{ partial "scripts.html" . }}
 </body>
 </html>

@@ -1,4 +1,51 @@
-/* assets/css/main.css */
+/* styles.css */
+
+/* Direttive di Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Personalizzazione della modalità scura */
+@layer base {
+    /* Aggiungi transizioni dolci per la modalità scura */
+    html {
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    body {
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Stili per la modalità scura */
+    .dark {
+        --bg-color: #1a202c;
+        --text-color: #f7fafc;
+    }
+
+    .dark body {
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    /* Aggiungi altri stili per la modalità scura come sfondi, bordi, ecc. */
+    .dark .bg-white {
+        background-color: #2d3748; /* Colore di sfondo per elementi bianchi */
+    }
+
+    .dark .text-gray-900 {
+        color: #f7fafc; /* Colore del testo chiaro */
+    }
+
+    .dark .text-gray-500 {
+        color: #e2e8f0; /* Colore testo scuro in modalità scura */
+    }
+
+    .dark .bg-gray-800 {
+        background-color: #2d3748; /* Sfondo scuro per altri elementi */
+    }
+
+    /* Modifica link, bottoni, e altri componenti */
+    .dark a {
+        color: #63b3ed;
+    }
+}

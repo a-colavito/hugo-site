@@ -28,21 +28,21 @@ Hai un'idea da condividere, una proposta di collaborazione o semplicemente vuoi 
   <div class="mb-4">
     <label for="name" class="block text-sm font-medium text-gray-700">Nome:</label>
     <input type="text" id="name" name="name" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required />
-    <div class="invalid-feedback text-red-500">Per favore inserisci il tuo nome.</div>
+    
   </div>
 
   <!-- Campo Email -->
   <div class="mb-4">
     <label for="email" class="block text-sm font-medium text-gray-700">Email:</label>
     <input type="email" id="email" name="email" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" required />
-    <div class="invalid-feedback text-red-500">Per favore inserisci un'email valida.</div>
+    
   </div>
 
   <!-- Campo Messaggio -->
   <div class="mb-4">
     <label for="message" class="block text-sm font-medium text-gray-700">Messaggio:</label>
     <textarea id="message" name="message" class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" rows="4" required></textarea>
-    <div class="invalid-feedback text-red-500">Per favore inserisci il tuo messaggio.</div>
+    
   </div>
 
   <!-- Pulsante di invio -->
